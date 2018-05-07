@@ -39,12 +39,11 @@ Route::resources([
 ]);
 
 
-Route::get('/', function ()
-{
-        $user = (new App\User)->find(1);
-
-    (new App\User)->find(1)->notify(new \App\Notifications\AnsweredaQuestion());
-    return view('welcome');
+Route::get('/test',function(){
+    $notifications=auth()->user()->unreadNotifications;
+    foreach($notifications as $notification){
+        ($notification->data['data']);
+    }
 });
 
 Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()

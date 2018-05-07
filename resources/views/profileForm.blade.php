@@ -24,7 +24,7 @@
                             {!! Form::label('body', 'Body') !!}
                             {!! Form::text('body', $profile->body, ['class' => 'form-control','required' => 'required']) !!}
                         </div>
-                        <button class="btn btn-success float-right" value="submit" type="submit" id="submit">Save
+                        <button class="btn btn-success float-right" value="submit" type="submit" id="submit"> Update Profile
                         </button>
                         {!! Form::close() !!}
                     </div>
