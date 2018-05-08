@@ -66,7 +66,7 @@ Once a question is answered, the user is notified that his/her question is also 
 **Unit Testing**
 10 successful tests and 10 asserstions.
 
-![4](https://user-images.githubusercontent.com/35869378/39732191-e5fec3e6-5239-11e8-83ff-cea2e78aa1c0.jpg)
+![screenshot 82](https://user-images.githubusercontent.com/35869378/39734183-066bb47c-5244-11e8-9860-6aef7f058fb8.png)
 
 **Link to Heroku App**
  This app is only till the point where user can create and answer questions. When tried to push the notification feature, heroku is showing an database error.
@@ -74,7 +74,7 @@ Once a question is answered, the user is notified that his/her question is also 
  
  
  **Website working Demo Video**
- Link to demo video on youtube https://youtu.be/kVQADRlkKsY
+ Link to demo video on youtube https://youtu.be/kVQADRlkKsY . 
 
 
 **References**
